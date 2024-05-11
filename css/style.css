@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --color-background: #b49fce;
+    --color-background2: #DCBFFF;
+    --color-font: #FFF;
+    --font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: var(--font-family);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('../imagens/shutterstock_2141385701.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.logo__png {
+    width: 150px;
+    margin: 20px;
+}
+
+.menu_principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--color-background);
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--color-font);
+    font-size: 1rem;
+    font-weight: 500;
+    margin-left: 50px;
+}
+
+.btn__login {
+    width: 130px;
+    height: 50px;
+    font-size: 1rem;
+    border-radius: 10px;
+    margin: 20px;
+    margin-left: 50px;
+    font-weight: 500;
+    background-color: transparent;
+    cursor: pointer;
+    color: var(--color-font);
+    text-decoration: none;
+}
+
+main {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border: 2px solid rgba(252, 177, 246, 0.441);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: var(--color-background);
+    color: var(--color-font);
+}
+
+.lembrar_senha {
+    font-size: small;
+    padding: 10px 0px;
+}
+
+.esqueceu_senha {
+    text-decoration: none;
+}
+
+.btn__login__box {
+    margin-top: 20px;
+    background-color: #e7e7e7;
+    color: black;
+    border-radius: 4px;
+    font-family: var(--font-family);
+    cursor: pointer;
+    font-size: small;
+    padding: 5px 15px;
+}
+
+.nao_tem_conta {
+    font-size: small;
+}
+
+.cadastre_se {
+    font-size: small;
+    text-decoration: none;
+    display: inline;
+}

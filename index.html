@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Login</title>
+
+    <!-- Importando arquivo css -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- Fim da importando arquivo css -->
+
+    <!-- Importando os ícones -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!-- Fim do mportando os ícones -->
+
+</head>
+
+<body>
+
+    <header class="menu_principal">
+        <img src="imagens/Bertô.png" alt="Bertoo" class="logo__png">
+
+        <nav class="menu">
+            <a href="#">Home</a>
+            <a href="#">Sobre</a>
+            <a href="#">Serviços</a>
+            <a href="#">Contatos</a>
+            <button class="btn__login">Login</button>
+        </nav>
+
+    </header>
+
+    <main>
+        <span class="icons">
+        </span>
+
+        <div class="form__box__login">
+            <h2>Login</h2>
+            <form>
+                <div class="input_box">
+                    <input type="email" name="email" id="email">
+                    <label for="email">Email</label>
+                </div>
+
+                <div class="input_box">
+                    <input type="password" name="senha" id="senha">
+                    <label for="senha">Senha</label>
+                </div>
+
+                <div class="lembrar_senha">
+                    <input type="checkbox" name="lembrar" id="lembrar">
+                    <label for="lembrar">Lembrar-me</label>
+                    <a class="esqueceu_senha" href="#">Esqueceu a senha?</a>
+                </div>
+
+                <button class="btn__login__box" type="submit">Login</button>
+
+                <p class="nao_tem_conta">Não tem conta? <a class="cadastre_se" href="#">Cadastre-se</a></p>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
